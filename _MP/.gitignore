@@ -1,7 +1,7 @@
 *.log
 *.aux
 *.toc
-*.wxm
+*.xwm
 *.docx
 *.out
 *.xdv
