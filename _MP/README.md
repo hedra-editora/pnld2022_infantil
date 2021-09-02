@@ -21,10 +21,9 @@ README.md
 
 ```tex
 \usepackage[printwatermark]{xwatermark}
-
-\newwatermark[pagex=2]{\includegraphics{testc.png}}
-\newwatermark[oddpages]{\includegraphics{test.png}}
-\newwatermark[evenpages]{\includegraphics{testb.png}}
+%\newwatermark[pagex=2]{\includegraphics{testc.png}}
+%\newwatermark[oddpages]{\includegraphics{test.png}}
+%\newwatermark[evenpages]{\includegraphics{testb.png}}
 
 ```
 
