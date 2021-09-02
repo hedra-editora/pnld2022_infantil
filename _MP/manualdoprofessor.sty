@@ -34,6 +34,7 @@
 \RequirePackage[depthadjust]{marginnote}
 \RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
 \RequirePackage{pagecolor}
+\RequirePackage{floatpag}
 
 %Marginnote to multiple BNCC
 \newcommand{\BNCCC}[1]{\marginnote{\footnotesize \texttt{\textbf{Ver também as habilidades:}}\\ \texttt{#1}}}
@@ -99,7 +100,7 @@
                       \ifdef{\imagemCapa}{
                       \includegraphics[width=4cm]{\imagemCapa}
                                           }{
-                      %\includegraphics[width=4cm]{capa.png}                    
+                      \includegraphics[width=4cm]{capa.png}                    
                                           }
                            }
                       };
@@ -178,7 +179,7 @@
 
 
 \AtBeginDocument{
-{ \hspace{-4.5cm}\includegraphics[width=14cm]{./images/\jobname-C}
+{ \hspace{-4.5cm}\includegraphics[width=14cm]{./images/\jobname-01}
 \setcounter{page}{0}
 \thispagestyle{empty}
 \pagebreak
