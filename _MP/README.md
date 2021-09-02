@@ -28,3 +28,12 @@ README.md
 
 ```
 
+Diminuir o tamanho do arquivo em pdf.
+```shell
+ps2pdf input.pdf output.pdf
+
+This also directly works on PDFs, as suggested in the comments.
+Some users also report more success when using the ebook settings as follows:
+ps2pdf -dPDFSETTINGS=/ebook input.pdf output.pdf
+
+```
