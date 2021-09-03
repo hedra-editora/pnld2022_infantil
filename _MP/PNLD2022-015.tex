@@ -17,6 +17,7 @@
 \usepackage{pdfpages}
 \usepackage[printwatermark]{xwatermark}
 \newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
+\newwatermark[pagex=15]{\includegraphics[scale=3.3]{watermarks/test-a.png}}
 %\newwatermark[oddpages]{\includegraphics{watermarks/test-a.png}}			% páginas ímpars
 %\newwatermark[evenpages]{\includegraphics{watermarks/test-a.png}}			% págimas pares
 \newwatermark[allpages]{\includegraphics[scale=3.3]{watermarks/test-b.png}}
@@ -90,7 +91,12 @@ consequentemente, a de seus estudantes.
 
 \section{Sobre os autores}
 
-\Image{Foto da autora e ilustradora (Kalinka; Kalinka)}{PNLD2022-015-02.png}
+
+\reversemarginpar
+\marginparwidth=5cm
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-015-02.png}\\
+A autora e ilustradora Vera Ermoláieva (Kalinka)}
 
 %532 caracteres
 \paragraph{A autora} A pintora, ilustradora e pedagoga Vera Ermoláieva nasceu em 1893 na província de Sarátov, no sul da Rússia. Quando pequena, sofreu uma queda de um cavalo que a deixou com as pernas paralisadas. Os pais a levaram à Europa em busca de uma cura, mas, sem sucesso, voltaram para a Rússia em 1904, onde ela concluiu o ginásio. A dificuldade de locomoção nunca limitou a vida de Vera Ermoláieva, que, ativa e generosa, enveredou por várias áreas da pintura e das artes gráficas.
@@ -134,12 +140,12 @@ brasileira, mantendo o humor, a leveza e a ludicidade do original.
 %55 caracteres
 \paragraph{O gênero} O gênero deste livro é \textit{narrativa}. 
 
-\Image{O gênero da narrativa proporciona ao leitor uma abertura ao mundo. (Pixabay/Tumisu; CC-BY-2.0)}{PNLD2022-015-07.png}
 
 %596 caracteres
 \paragraph{Descrição} Em sua base, pode-se definir a narrativa como um gênero que conta uma história, normalmente em estrutura linear, ou seja, começo, meio e fim, e com personagens. 
 Dentre os tipos de narrativas mais comuns na literatura infantil, estão: mito, lenda, 
 fábula e apólogo. Nos livros infantis, as possibilidades narrativas são quase ilimitadas, pois quase tudo pode integrar a narrativa e fazer parte dela como personagem, já que a capacidade reflexiva das crianças nesta idade ainda está em um nível primário. 
+
 
 
 
@@ -155,6 +161,8 @@ apresentar o mundo e capacitar as crianças para viver nele, mas como se
 trata de um trabalho com a linguagem, sempre dando espaço à individualidade, 
 seja na compreensão das histórias, na identificação com as personagens, ou 
 no ato de narrar.
+
+\Image{O gênero da narrativa proporciona ao leitor uma abertura ao mundo. (Pixabay/Tumisu; CC-BY-2.0)}{PNLD2022-015-07.png}
 
 %862 caracteres
 \paragraph{Competências} 
@@ -409,6 +417,13 @@ a boa interação com a história lida e a solicitação de interagirem com ela.
 tomar o seu lugar e começar a falar sobre a história ou sua relação com os animais, valorize e escute com atenção o que estiverem falando. Mas não 
 force a leitura. Se as crianças estiverem cansadas, faça outra atividade 
 e retorne depois. 
+
+\includepdf[nup=2x3, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={16-17,32-33,36-37}]{./pdfs/\jobname_MIOLO.pdf}
 
 %935 caracteres
 \item \textbf{Leitura}\quad Faça perguntas e comentários que aumentem o 
