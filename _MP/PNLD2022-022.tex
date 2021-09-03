@@ -15,10 +15,10 @@
 \usepackage{marginnote}
 \usepackage{pdfpages}
 \usepackage[printwatermark]{xwatermark}
-\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}  % página específica
+%\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}} % página específica
 %\newwatermark[oddpages]{\includegraphics{watermarks/test-a.png}}           % páginas ímpars
 %\newwatermark[evenpages]{\includegraphics{watermarks/test-a.png}}          % págimas pares
-\newwatermark[allpages]{\includegraphics[scale=3.3]{watermarks/test-b.png}}
+\newwatermark[allpages]{\includegraphics[scale=1]{watermarks/022.png}}
 
 \pagecolor{cyan!0!magenta!10!yellow!28!black!28!}
 
@@ -26,7 +26,7 @@
 \newcommand{\TituloLivro}{Almanaque de bichos}
 \newcommand{\Tema}{Animais da fauna local; nacional e mundial}
 \newcommand{\Genero}{Prescritivos: instruções; guias; manuais; ciclo de crescimento; ciclo de vida etc}
-\newcommand{\imagemCapa}{./images/PNLD2022-022-01.png}
+\newcommand{\imagemCapa}{./images/PNLD2022-022-01.pdf}
 \newcommand{\issnppub}{978-65-99441-25-7}
 \newcommand{\issnepub}{978-65-99441-26-4}
 % \newcommand{\fichacatalografica}{PNLD0001-00.png}
@@ -444,6 +444,13 @@ Não deixe que eles fiquem sem entender do que se trata nada. Crie
 um ambiente amigável onde a criança se sinta à vontade para fazer 
 perguntas e comentários durante a leitura.
 
+
+\includepdf[nup=2x3, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={16-17,78-79,125-126}]{./pdfs/\jobname_MIOLO.pdf}
 
 %382 caracteres
 \item \textbf{Interação}\quad Nomeie os elementos das ilustrações 

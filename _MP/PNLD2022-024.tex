@@ -17,10 +17,10 @@
 \usepackage{marginnote}
 \usepackage{pdfpages}
 \usepackage[printwatermark]{xwatermark}
-\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
+%\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
 %\newwatermark[oddpages]{\includegraphics{watermarks/test-a.png}}			% páginas ímpars
 %\newwatermark[evenpages]{\includegraphics{watermarks/test-a.png}}			% págimas pares
-\newwatermark[allpages]{\includegraphics[scale=3.3]{watermarks/test-b.png}}
+\newwatermark[allpages]{\includegraphics[scale=1]{watermarks/024.png}}
 
 \pagecolor{cyan!0!magenta!10!yellow!28!black!28!}
 
@@ -28,7 +28,7 @@
 \newcommand{\TituloLivro}{Fim dos insetos}
 \newcommand{\Tema}{Mundo natural; meio ambiente; plantas; Biologia e Ciências}
 \newcommand{\Genero}{Narrativos: fábulas originais; da literatura universal e da tradição popular; etc}
-\newcommand{\imagemCapa}{./images/PNLD2022-024-01.png}
+\newcommand{\imagemCapa}{./images/PNLD2022-024-01.pdf}
 \newcommand{\issnppub}{978-65-99442-24-7}
 \newcommand{\issnepub}{978-65-99442-26-1}
 % \newcommand{\fichacatalografica}{PNLD0001-00.png}
@@ -53,7 +53,7 @@
 \section{Sobre o livro}
 
 %27 caracteres
-\paragraph{O livro} \texti{Fim dos insetos}, de Lucas-K, é uma envolvente narrativa sobre a interação entre insetos e humanos na Terra. Vários insetos são retratados de forma lúdica e colorida --- a cigarra, a joaninha, o mosquito, o carrapato, o pulgão ---, em seu dia a dia nas cidades. No entanto, um problema com os humanos, que não conseguiam entender e conviver com os pequenos bichinhos, levou os insetos a deixarem as cidades e se unirem nas floresta. Depois disso, as cidades nunca mais seriam as mesmas: perderam o colorido da diversidade de vida, inclusive as flores, que não nasceram mais quando deixaram de ser polinizadas pelos insetos.
+\paragraph{O livro} \textit{Fim dos insetos}, de Lucas-K, é uma envolvente narrativa sobre a interação entre insetos e humanos na Terra. Vários insetos são retratados de forma lúdica e colorida --- a cigarra, a joaninha, o mosquito, o carrapato, o pulgão ---, em seu dia a dia nas cidades. No entanto, um problema com os humanos, que não conseguiam entender e conviver com os pequenos bichinhos, levou os insetos a deixarem as cidades e se unirem nas floresta. Depois disso, as cidades nunca mais seriam as mesmas: perderam o colorido da diversidade de vida, inclusive as flores, que não nasceram mais quando deixaram de ser polinizadas pelos insetos.
 
 %822 caracteres
 \paragraph{Descrição} Muitos insetos viviam nas cidades. Nem todos eram bonitos como as joaninhas, mas todos tinham suas funções, mesmo as baratas que visitavam as lixeiras durante a noite. As pessoas, por isso, começaram a ter medo deles, e muitos eram esmagados. Nem a bela joaninha conseguiu fugir dessa sorte: Clarice, a única humana nomeada na história, assustou-se certa vez com um bichinho na parede e, sem querer, jogou veneno em uma pobre joaninha. Os insetos, tristes, resolveram mudar a situação. O pulgão reuniu todos os insetos para conversar e procurar uma solução. O mosquito queria picar todos os humanos, mas resolveram que a melhor solução não era machucar as pessoas. Incentivados pelo bicho-folha, formaram uma grande fila e foram morar na floresta. Na cidade, no entanto, sentiram sua falta, pois as flores não mais nasciam e parecia faltar alguma coisa no ciclo da vida.
@@ -99,8 +99,6 @@ Foi co-fundador e participou em vários coletivos de arte, incluindo a Atpress e
 %55 caracteres
 \paragraph{O gênero} O gênero deste livro é \textit{narrativa}. 
 
-\Image{O gênero da narrativa proporciona ao leitor uma abertura ao mundo. (Pixabay/Tumisu; CC-BY-2.0)}{PNLD2022-024-07.png}
-
 %596 caracteres
 \paragraph{Descrição} 
 O gênero narrativo possui uma variedade de tipos e, cada um, suas estruturas específicas.
@@ -133,6 +131,8 @@ no ato de narrar.
 Através de elementos dos mitos, contos e histórias do cotidiano, desenvolve-se a sensibilidade narrativa e a capacidade de imaginação das crianças. Para um bom desenvolvimento da capacidade narrativa e imaginativa é necessária a intermediação do educador, que vai trazer novos olhares, análises e discussões para ajudar a criança na construção do significado. Essas são etapas fundamentais para o desenvolvimento linguístico e a aquisição das competências de leitura e escrita. Por meio da narrativa, inclusive, a criança passa do diálogo ao monólogo, pois passa a ser capaz de elaborar um discurso para si com maior autonomia, sem a intermediação necessária no diálogo.
 O conjunto de elementos verbais e visuais da narrativa proporcionam, assim,
 uma abertura ao mundo e um convite para integrá-lo pela curiosidade e pela imaginação.
+
+\Image{O gênero da narrativa proporciona ao leitor uma abertura ao mundo. (Pixabay/Tumisu; CC-BY-2.0)}{PNLD2022-024-07.png}
 
 A narrativa de \textit{Fim dos insetos}, em especial, trabalha diferentes competências
 nos pequenos leitores. Para além da narrativa, o livro apresenta às crianças uma linguagem artística complexa.
@@ -413,6 +413,13 @@ Não deixe que eles fiquem sem entender do que se trata cada frase. Crie
 um ambiente amigável onde a criança se sinta à vontade para fazer 
 perguntas e comentários durante a leitura.
 
+
+\includepdf[nup=2x3, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={8-9,10-11,28-29}]{./pdfs/\jobname_MIOLO.pdf}
 
 %382 caracteres
 \item \textbf{Interação}\quad Nomeie os elementos das ilustrações 

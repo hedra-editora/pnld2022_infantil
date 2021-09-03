@@ -15,10 +15,10 @@
 \usepackage{marginnote}
 \usepackage{pdfpages}
 \usepackage[printwatermark]{xwatermark}
-\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
+%\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
 %\newwatermark[oddpages]{\includegraphics{watermarks/test-a.png}}			% páginas ímpars
 %\newwatermark[evenpages]{\includegraphics{watermarks/test-a.png}}			% págimas pares
-\newwatermark[allpages]{\includegraphics[scale=3.3]{watermarks/test-b.png}}
+\newwatermark[allpages]{\includegraphics[scale=1]{watermarks/010.png}}
 
 \pagecolor{cyan!0!magenta!10!yellow!28!black!28!}
 
@@ -97,7 +97,11 @@ consequentemente, a de seus estudantes.
 
 \section{Sobre os autores}
 
-\Image{Foto do autor e ilustrador (Arquivo pessoal; )}{PNLD2022-010-02.png}
+\reversemarginpar
+\marginparwidth=5cm
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-010-02.png}\\
+O autor e ilustrador Eloar Guazzelli Filho (Arquivo pessoal)}
 
 %532 caracteres
 \paragraph{O autor} Eloar Guazzelli Filho nasceu em Vacaria, Rio Grande do Sul, em 1962. É ilustrador, animador e quadrinista, tendo iniciado sua carreia nos anos 1990 com  publicação de histórias em quadrinhos.
@@ -406,6 +410,13 @@ Não tenha pressa em passar as páginas. Deixe que os estudantes
 observem as ilustrações, dê tempo para que construam suas narrativas e ideias 
 a partir das ilustrações apresentadas na página.
 
+\includepdf[nup=2x3, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={16-17,28,54,33,42}]{./pdfs/\jobname_MIOLO.pdf}
+
 Ao explorar o texto visual, dê emoção 
 à leitura. Invente diálogos entre os personagens, crie uma voz para 
 cada uma, capriche nas expressões faciais e imite os sons dos animais e objetos que aparecem.
@@ -452,7 +463,10 @@ Esta proposta tem o objetivo de estimular a criatividade com base em imagens pr�
 %950 caracteres
 \item \textbf{A atividade}\quad Monte, junto com as crianças, uma janela de papelão que possa ser posicionada em alguma parte da sala de aula. Essa janela pode ter o nome de “Janela da imaginação”. A proposta é que todos possam ajudar a enfeitar essa janela, de acordo com as suas possibilidades e habilidades manuais. Caso necessário, o educador pode realizar a etapa mais difícil da confecção da janela. Basta cortar uma caixa de papelão, formando uma borda que poderá ser enfeitada com bolinhas, florzinhas e outras figuras ou objetos criados pelos alunos. Com a caixa posicionada em uma mesa e estabilizada com fita crepe, as crianças, em grupos de três, posicionam-se próximas à janela e contam uma história breve de sua imaginação ou memória, criando um clima de fantasia, em que a janela da imaginação permite a todos criar e/ou contar suas histórias. É importante que o professor auxilie os grupos, dando sugestões e estipulando um tempo para que todos no grupo possam participar. Pode ser uma história que o professor já contou, ou uma historinha que já viram na TV ou no teatro, e até mesmo uma história inventada.  
 
-\Image{Ideias para decorar a janela da imaginação. (Public domain pictures; Domínio público)}{PNLD2022-010-10.png}
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-010-10.png}\\
+Ideias para decorar a janela da imaginação. (Public domain pictures; Domínio público)}
+
 
 %550 caracteres
 \item \textbf{Interação}\quad Essa atividade proporciona aos estudantes a possibilidade de fazer relações entre o livro e sua vida cotidiana, pois vão trazer ao ambiente da ``janela da imaginação'' coisas que eles viveram, viram ou ouviram. Quando as crianças propuserem suas ideias, interaja com o pensado e apresentado pelas crianças, fazendo perguntas que as auxiliem a desenvolver o pensamento iniciado.
@@ -595,6 +609,13 @@ o mundo da leitura e da escrita.
 Solicite aos familiares que conversem com as crianças sobre o que elas veem quando abrem a janela de suas casas. Os pais, nesse processo, podem estimular a criatividade da criança, como perguntas como: o que elas gostariam de ver de suas janelas? Elas preferem o dia ensolarado ou mais ameno ao olharem pela janela? Elas já pararam para observar pelas janelas? O que elas sentem com isso? Têm vontade de sair para a rua, ou gostam de observar o que acontece lá fora?
 Em seguida, os pais podem auxiliar as crianças a fazer um desenho que represente essa visão da janela, valendo aqui a imaginação: tanto o que veem pela janela no quotidiano, como o que gostariam de ver etc.
 
+
+\includepdf[nup=2x4, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={10-11,12-13,58-59,60-61}]{./pdfs/\jobname_MIOLO.pdf}
 
 %650 caracteres
 \item \textbf{Leitura}\quad A família pode continuar explorando os temas apresentados pelo livro em relação às janelas que as suas crianças observam.

@@ -15,10 +15,10 @@
 \usepackage{marginnote}
 \usepackage{pdfpages}
 \usepackage[printwatermark]{xwatermark}
-\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
+%\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
 %\newwatermark[oddpages]{\includegraphics{watermarks/test-a.png}}			% páginas ímpars
 %\newwatermark[evenpages]{\includegraphics{watermarks/test-a.png}}			% págimas pares
-\newwatermark[allpages]{\includegraphics[scale=3.3]{watermarks/test-b.png}}
+\newwatermark[allpages]{\includegraphics[scale=1]{watermarks/005.png}}
 
 \pagecolor{cyan!0!magenta!10!yellow!28!black!28!}
 
@@ -68,6 +68,11 @@ O livro \textit{As letras} trabalha a aquisição do alfabeto da língua portugu
 
 Como esse processo se dá em paralelo com a apresentação de elementos culturais e tradicionais brasileiros, o livro contribui para expandir o repertório da criança, desde o vocabulário até a apreensão dos diferentes elementos que caracterizam e constituem as regiões brasileiras. Uma ótima maneira, portanto, de trabalhar também a alfabetização e apresentar à criança a diversidade que constitui o Brasil.
 
+\reversemarginpar
+\marginparwidth=5cm
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-005-03.png}\\
+A ilustradora Laurabeatriz (Arquivo pessoal)}
 
 %862 caracteres
 \paragraph{Aprofundamento} Este material tem a 
@@ -87,14 +92,14 @@ consequentemente, a de seus estudantes.
 
 \section{Sobre os autores}
 
-\Image{Foto do autor (Arquivo pessoal; )}{PNLD2022-005-02.png}
-
-\Image{Foto da autora (Arquivo pessoal; )}{PNLD2022-005-03.png}
 
 %532 caracteres
 \paragraph{A autora} Laurabeatriz, nome artístico de Laura Beatriz de Oliveira Leite de Almeida, nasceu no Rio de Janeiro em 1949, mas adotou São Paulo com sua cidade. Artista plástica apaixonada pela natureza, trabalha com desenhos, xilogravuras e pinturas, com as quais já participou de diversas exposições. Foi redatora publicitária e crítica de cinema do jornal \textit{Folha da Tarde}, além de ilustradora de outros jornais e revistas.
 
 \paragraph{O autor} Lalau, nome artístico de Lázaro Simões Neto, nasceu em São Paulo, no bairro do Cambuci, em 1954. Formado em Comunicação Social, trabalhou com criação publicitária e projetos literários. Desde 1994 escreve poemas para crianças, incentivado pelo grande poeta José Paulo Paes.
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-005-02.png}\\
+O autor Lalau (Arquivo pessoal)}
 
 %313 caracteres
 \paragraph{Publicações} Além de \textit{Os números}, Lalau e Laurabeatriz já publicaram mais de 60 livros para crianças juntos. Desde 1994, quando publicaram seu primeiro livro juntos, \textit{Bem-te-vi e outras poesias}, não pararam mais de produzir, com Lalau escrevendo versos e Laurabeatriz ilustrando as histórias. Uma característica de todas as suas obras é a exploração da fauna e da flora brasileiras. No início dos anos 2000, publicaram a série ``Brasileirinhos'', com cinco volumes explorando a vida de ``brasileirinhos'' de diferentes regiões do país. 
@@ -109,13 +114,15 @@ consequentemente, a de seus estudantes.
 %55 caracteres
 \paragraph{O gênero} O gênero deste livro é \textit{poesia}. 
 
-\Image{O gênero poético incentiva a curiosidade e a imaginação. (LACMA/Remedios Varo; CC BY-NC 2.0)}{PNLD2022-005-07.png}
 
 %596 caracteres
 \paragraph{Descrição} Um dos meios mais expressivos de comunicação e inovação da linguagem, a poesia é uma das mais antigas formas de arte literária, anterior até mesmo à escrita, pois existe desde a tradição oral. Ela combina palavras, significados, sonoridades, ritmos e, muitas vezes, também imagens para permitir uma experiência estética. A linguagem poética é condensada e emotiva e busca trabalhar a língua de forma que o leitor experimente as palavras de uma forma nova. Na maior parte das vezes, a poesia é dividida em versos que, juntos, são chamados de estrofes. O ponto de vista do autor e sua visão pessoal do mundo estão muito presentes nesse tipo de texto e, justamente por essa particularidade, a experiência da leitura de uma poesia é extremamente individual e subjetiva.
 
 %603 caracteres
 \paragraph{Interação} Esse gênero é um grande aliado na formação do leitor. O olhar da criança para o mundo é, em essência, um olhar poético, calcado na curiosidade pelo mundo. A poesia é a forma perfeita de valorizar esse olhar e incentivar que a criança brinque com as palavras, observe os sons e experimente novos ritmos. Por sua liberdade e criatividade, a poesia tem potencial para estabelecer um diálogo único com os pequenos leitores. A presença de fantasias, imagens, repetição e símbolos permite uma maior identificação, pois a criança ainda está construindo seu mundo interior e experimenta a vida de forma diferente do adulto. 
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-005-07.png}\\
+O gênero poético incentiva a curiosidade e a imaginação. (LACMA/Remedios Varo; CC BY-NC 2.0)}
 
 %862 caracteres
 \paragraph{Competências} 
@@ -371,6 +378,13 @@ tomar o seu lugar e começar a falar sobre o poema, valorize e escute com atenç
 force a leitura. Se as crianças estiverem cansadas, faça outra atividade 
 e retorne depois. 
 
+\includepdf[nup=2x3, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={4-5,22-23,42-43}]{./pdfs/\jobname_MIOLO.pdf}
+
 %935 caracteres
 \item \textbf{Leitura}\quad Faça perguntas e comentários que aumentem o 
 interesse e aticem a curiosidade das crianças sobre os poemas e as letras. Faça 
@@ -379,7 +393,7 @@ perguntas ou comentários como:
 \begin{itemize}
 \item O que representa essa figura?
 \item O que rima com a palavra final do poema?
-\item Esse animal tem tal característica e vive em tal lugar!
+\item A arara é vermelha e azul, voa pelos ares e mora nas florestas!
 \end{itemize}
 
 Não tenha pressa em passar as páginas. Deixe que os estudantes 
@@ -427,10 +441,14 @@ diferente, começando, por exemplo, pela letra Z e terminando no A.
 %650 caracteres
 \item \textbf{O ambiente}\quad Sala de aula ou biblioteca. 
 
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-005-10.png}\\
+Outro exemplo de imagem que pode ser utilizada na atividade de categorização de elementos. (Pixabay; CC-BY-2.0)}
+
+
 %950 caracteres
 \item \textbf{A atividade}\quad Prepare a sala para que o ambiente fique o mais livre possível para desenvolver a atividade. o professor deverá explicar para as crianças que elas poderão ir em duplas para pegar a imagem na caixa. Explique as categorias (plantas, animais e pessoas) e o que devem fazer quando a atividade iniciar. O professor deverá perguntar em qual das categorias abordadas a imagem que a criança (ou dupla) pegou se encaixa e estimulá-la a levar até a mesa com a categoria correspondente. É importante perguntar também se sabem com qual letra do alfabeto a imagem começa. Se não souberem procure fazer perguntas facilitadoras, mas, se mesmo assim os alunos não conseguirem, diga a letra. Repita o processo até que todos os alunos tenham participado.
 
-\Image{Outro exemplo de imagem que pode ser utilizada na atividade de categorização de elementos. (Pixabay; CC-BY-2.0)}{PNLD2022-005-10.png}
 
 %550 caracteres
 \item \textbf{Interação}\quad O livro pode e deve ser 

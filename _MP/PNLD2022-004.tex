@@ -14,10 +14,10 @@
 \usepackage{marginnote}
 \usepackage{pdfpages}
 \usepackage[printwatermark]{xwatermark}
-\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
+%\newwatermark[pagex=2]{\includegraphics[scale=3.3]{watermarks/test-a.png}}	% página específica
 %\newwatermark[oddpages]{\includegraphics{watermarks/test-a.png}}			% páginas ímpars
 %\newwatermark[evenpages]{\includegraphics{watermarks/test-a.png}}			% págimas pares
-\newwatermark[allpages]{\includegraphics[scale=3.3]{watermarks/test-b.png}}
+\newwatermark[allpages]{\includegraphics[scale=1]{watermarks/004.png}}
 
 \pagecolor{cyan!0!magenta!10!yellow!28!black!28!}
 
@@ -84,7 +84,12 @@ consequentemente, a de seus estudantes.
 %532 caracteres
 \paragraph{O autor} Fábio Zimbres nasceu em São Paulo em 1960. Formado em Arquitetura pela Universidade de São Paulo (\textsc{usp}) e em Artes Plásticas pela Universidade Federal do Rio Grande do Sul (\textsc{ufrgs}), trabalha como quadrinista, ilustrador, artista visual, designer gráfico e organizando exposições. Começou sua carreira como artista gráfico em 1980, produzindo histórias em quadrinhos e como diretor de arte da revista \textit{Animal}. Como artista plástico, teve trabalhos em exposições individuais na galeria Adesivo e o Museu do Trabalho, em Porto Alegre; o Centro Cultural Recoleta, em Buenos Aires; e a galeria Design Festa, em Tóquio.
 
-\Image{Foto do autor e ilustrador (Arquivo pessoal)}{PNLD2022-004-02.png}
+\reversemarginpar
+\marginparwidth=5cm
+
+\marginnote{\includegraphics[width=\marginparwidth]{./images/PNLD2022-004-02.png}\\
+O autor e ilustrador Fábio Zimbres (Arquivo pessoal)}
+
 
 %313 caracteres
 \paragraph{Publicações} Entre 1999 e 2001, desenhou a tirinha \textit{Vida boa}, publicada no jornal \textit{Folha de S.\,Paulo}. Em 2006, desenhou a história em quadrinho \textit{Música para Antropomorfos}, em parceria com a banda goiana Mechanics, republicada em 2018 pela editora Zarabatana. É criador e editor da Edições Tonto, cuja Coleção Mini Tonto publica livros de artistas alternativos brasileiros e latino-americanos.
@@ -354,6 +359,13 @@ tomar o seu lugar e começar a falar sobre a história ou suas relações pessoa
 force a leitura. Se as crianças estiverem cansadas, faça outra atividade 
 e retorne depois. 
 
+\includepdf[nup=2x3, 				% grid
+			%offset=-15mm -5mm, 	% posição
+			scale=.8, 				% tamanho da página
+            delta=4mm 4mm, 			
+            frame,
+            pages={5-6,15-16,39-40}]{./pdfs/\jobname_MIOLO.pdf}
+
 %935 caracteres
 \item \textbf{Leitura}\quad Enquanto lê, sugere-se que a professora mostre as figuras para as crianças e estimule que elas discutam sobre o que está sendo mostrado.
 Faça perguntas como:
@@ -376,10 +388,10 @@ Todos os personagens, e seus gostos, podem ser explorados através da leitura di
 
 Pode-se colocar uma música conhecida das crianças para que elas dancem em roda, reafirmando os vínculos comuns entre elas e criando um espaço de diversão e socialização que explora as ideias tratadas no livro. Caso não se tenha um rádio ou caixa de som, pode-se cantar com a turma.
 
-\Image{Durante a atividade musical com as crianças é interessante fazer uma roda para integrar a sala. (Jonas Banhos; CC BY-NC 2.0)}{PNLD2022-004-09.png}
-
 
 Após esse momento, é interessante retornar ao livro, criando o vínculo entre a atividade lúdica e corporal e o momento de leitura. Assim, o hábito da leitura passa a estar associado a coisas dinâmicas e divertidas.
+
+\Image{Durante a atividade musical com as crianças é interessante fazer uma roda para integrar a sala. (Jonas Banhos; CC BY-NC 2.0)}{PNLD2022-004-09.png}
 
 %382 caracteres
 \item \textbf{Interação}\quad Nomeie as ilustrações 
