@@ -1,4 +1,6 @@
 \originais
+*.out
+*.xwm
 *.log
 *.aux
 *.toc
