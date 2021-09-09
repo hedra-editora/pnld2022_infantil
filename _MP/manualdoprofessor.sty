@@ -100,7 +100,7 @@
                       \ifdef{\imagemCapa}{
                       \includegraphics[width=4cm]{\imagemCapa}
                                           }{
-                      \includegraphics[width=4cm]{capa.png}                    
+                      %\includegraphics[width=4cm]{capa.png}                    
                                           }
                            }
                       };
@@ -115,7 +115,7 @@
        %\textsc{\textbf{elaboração}}
        }%\\ \authornotes \\
        \textsc{\textbf{coordenação editorial}}   \\ Jorge Sallum\\ Suzana Salama \\ Felipe Musetti \\
-       \textsc{\textbf{edição}} \\ Paulo Pompermaier\\ Renier Silva \\
+       \textsc{\textbf{edição}} \\ Paulo Henrique Pompermaier\\ Renier Silva \\
        \textsc{\textbf{assistência editorial}} \\ Ana Lancman \\ Nathalia Tomaz \\
        \textsc{\textbf{diagramação e revisão}} \\ EdLab Press \\
        \ifdef{\cclicense}{{\textsc{\textbf{licenças}}\\ \textsc{cc-by-nc 3.0 br}}\\}{}
@@ -180,8 +180,13 @@
 
 
 \AtBeginDocument{
-{ \hspace{-4.5cm}\includegraphics[width=14cm]{./images/\jobname-C.png}
-\setcounter{page}{0}
+{ \includepdf[
+      scale=1,         % tamanho da página
+            delta=4mm 4mm,      
+            pages={1}]{./pdfs/\jobname-C.pdf}
+
+%\hspace{-4.5cm}\includegraphics[width=14cm]{./images/\jobname-C.png}
+\setcounter{page}{1}
 \thispagestyle{empty}
 \pagebreak
 }
